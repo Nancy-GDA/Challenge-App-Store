@@ -1,0 +1,53 @@
+body{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.main-container{
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+    background-image:url(/images/background.svg);
+    padding: 0px;
+}
+.description{
+    display:flex;
+    flex-direction: column;
+    align-self:center;
+    border:1px solid red;
+}
+.description h2,p{
+    color: #DB8A8A; 
+}
+.logo img{
+    border:1px solid blue;
+    display: flex;
+    width: 150px;
+    height: 30px;
+}
+.image{
+    height: 150px;
+    margin:0px;
+    padding:0px;   
+}
+img{
+    height: 721px;
+}
+.arrow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FB7F7F;
+    height: 50px;
+    width:70px;
+}
+.arrow img{
+    width: 20px;
+    height: 20px;
+}
+input{
+    height: 20px;
+    width: 130px;
+}
